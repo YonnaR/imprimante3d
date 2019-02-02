@@ -1,0 +1,12 @@
+https://codepen.io/wikiki/pen/OjdNKM !!important!! tout est surement sur cet exemple
+        -- https://github.com/jgthms/bulma/issues/860
+
+
+https://dansup.github.io/bulma-templates/templates/admin.html
+        -- admin component for integration
+
+https://dansup.github.io/bulma-templates/templates/login.html
+        -- login page idea
+
+https://dansup.github.io/bulma-templates/templates/hero.html
+        --hero for home page??? idea

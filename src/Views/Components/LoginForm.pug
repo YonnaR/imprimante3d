@@ -1,0 +1,27 @@
+section.hero.is-main-content.is-fullheight
+  .hero-body
+    .container.has-text-centered
+      .column.is-6.is-offset-3.is-tablet-10.is-tablet-offset-1
+        h3.title.has-text-grey Page de connection
+        p.subtitle.has-text-grey #{pageTitle}
+        .box
+          figure.avatar
+            img(src='https://placehold.it/128x128')
+          form(method="GET" action="/connection" )
+            br
+            .field
+              .control
+                input.input.is-large(type='email' name='email' placeholder='Your Email' autofocus='')
+            br
+            .field
+              .control
+                input.input.is-large(type='password' name='password' placeholder='Your Password')
+            .field
+            br
+            button(type="submit").button.is-block.is-info.is-large.is-fullwidth Connection
+          br
+          p
+            a(href='../') Mot de passe oublié?
+          br
+          p
+            a(href='../') Besoin d'aide ?

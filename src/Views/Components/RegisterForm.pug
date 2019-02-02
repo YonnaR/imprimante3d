@@ -1,0 +1,33 @@
+.container
+    h3.title.has-text-grey Page de connection
+    p.subtitle.has-text-grey #{pageTitle}
+    .box
+        form(method="GET" action="/connection" )
+        .field
+            .control
+            input.input.is-large(type='text' name='firstName' placeholder='Prénom')
+        br
+        .field
+            .control
+            input.input.is-large(type='text' name='lastName' placeholder='Nom')
+        br
+        .field
+            .control
+            input.input.is-large(type='email' name='email' placeholder='Your Email' autofocus='')
+        br
+        .field
+            .control
+            input.input.is-large(type='password' name='password' placeholder='Your Password')
+        br
+        .center
+            .field.is-grouped   
+            .control
+                button(type="submit").button.is-block.is-success.is-large.is-fullwidth Connection
+            .control
+                a(href="/home").button.is-block.is-warning.is-large.is-fullwidth Connection
+        br
+        p
+        a(href='../') Mot de passe oublié?
+        br
+        p
+        a(href='../') Besoin d'aide ?
